@@ -21,7 +21,7 @@ public class TodoList
     
      /**
      * returns a comma seperated
-     * String with all done todos.
+     * String with all open todos.
      */
     public String today(){
         return null;
