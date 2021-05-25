@@ -16,14 +16,23 @@ public class TodoList
      * String with all done todos.
      */
     public String report(){
-        return null;
+        String result = "";
+        for(Todo todo : todos){
+            if(todo.isDone()){
+                result = result + todo.getTitle() + ", ";
+            }
+        }
+        return result; 
     }
-    
-     /**
+
+    /**
      * returns a comma seperated
      * String with all open todos.
      */
     public String today(){
+        todos.stream()
+        .filter(todo -> !todo.isDone())
+        .reduce("", ())
         return null;
     }
 }

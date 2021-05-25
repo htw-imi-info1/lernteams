@@ -1,4 +1,8 @@
 #BlueJ class context
 comment0.target=Todo
 comment0.text=\n\ Todo\ represents\ one\ Todo\ Item.\n\ If\ you\ want\ to\ test\ your\ code,\n\ add\ getters\ for\ the\ fields\ and\n\ a\ constructor\ that\ initializes\n\ the\ fields.\n
-numComments=1
+comment1.params=title\ description
+comment1.target=Todo(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getTitle()
+numComments=3
