@@ -24,6 +24,6 @@ public class Todo
         this.done = done;
     }
     public String getTitle(){return title;}
-    public boolean getDone(){return done;}
+    public boolean isDone(){return done;}
     public String getDescription(){return description;}
 }
