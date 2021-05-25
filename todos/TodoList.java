@@ -16,6 +16,13 @@ public class TodoList
     public TodoList(){
         todos = new ArrayList<>();
         todos.add(new Todo("Info1 Workbook","do it", false));
+        todos.add(new Todo("Lab 1","http://bkleinen.github.io/classes/ss2021/info1/labs/", true));
+        todos.add(new Todo("Lab 2","http://bkleinen.github.io/classes/ss2021/info1/labs/", true));
+        todos.add(new Todo("Lab 3","http://bkleinen.github.io/classes/ss2021/info1/labs/", true));
+        todos.add(new Todo("Lab 4","http://bkleinen.github.io/classes/ss2021/info1/labs/", false));
+        todos.add(new Todo("Lab 5","http://bkleinen.github.io/classes/ss2021/info1/labs/", false));
+        todos.add(new Todo("Lab 6","http://bkleinen.github.io/classes/ss2021/info1/labs/", false));
+
         // ... add some more
     }
 
