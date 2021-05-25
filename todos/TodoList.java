@@ -1,5 +1,6 @@
 
 import java.util.List;
+import java.util.ArrayList;
 /**
  * represents a TodoList.
  * If you want to test the report and today
@@ -11,6 +12,13 @@ import java.util.List;
 public class TodoList
 {
     private List<Todo> todos;
+
+    public TodoList(){
+        todos = new ArrayList<>();
+        todos.add(new Todo("Info1 Workbook","do it", false));
+        // ... add some more
+    }
+
     /**
      * returns a comma seperated
      * String with all done todos.
@@ -18,8 +26,8 @@ public class TodoList
     public String report(){
         return null;
     }
-    
-     /**
+
+    /**
      * returns a comma seperated
      * String with all open todos.
      */

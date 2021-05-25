@@ -11,5 +11,19 @@ public class Todo
     String title;
     boolean done;
     String description;
-   
+
+    public Todo(String title, String description){
+        this.title = title;
+        this.description = description;
+        this.done = false;
+    }
+
+    public Todo(String title, String description, boolean done)
+    { 
+        this(title,description);
+        this.done = done;
+    }
+    public String getTitle(){return title;}
+    public boolean getDone(){return done;}
+    public String getDescription(){return description;}
 }
