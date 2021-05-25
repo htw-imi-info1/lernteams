@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TodoList
+comment0.text=\n\ represents\ a\ TodoList.\n\ If\ you\ want\ to\ test\ the\ report\ and\ today\n\ methods,\n\ add\ a\ constructor\ and\ a\ method\ that\ initializes\n\ the\ TodoList\ with\ test\ data,\ and/or\ an\ add\n\ method.\n
+comment1.params=
+comment1.target=java.lang.String\ report()
+comment1.text=\n\ returns\ a\ comma\ seperated\n\ String\ with\ all\ done\ todos.\n
+comment2.params=
+comment2.target=java.lang.String\ today()
+comment2.text=\n\ returns\ a\ comma\ seperated\n\ String\ with\ all\ done\ todos.\n
+numComments=3
