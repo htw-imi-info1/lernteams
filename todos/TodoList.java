@@ -31,7 +31,11 @@ public class TodoList
      * String with all done todos.
      */
     public String report(){
-        return null;
+        return todos.stream()
+        .filter(todo -> todo.isDone())
+        .map(todo -> todo.getTitle() + ", ")
+        .reduce("",String::concat);
+        
     }
 
     /**
@@ -39,6 +43,12 @@ public class TodoList
      * String with all open todos.
      */
     public String today(){
-        return null;
+        String result = "";
+        for (Todo todo: todos){
+            if (!todo.isDone()){
+                result += todo.getTitle() + ", ";
+            }
+        }
+        return result;
     }
 }
